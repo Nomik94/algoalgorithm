@@ -15,5 +15,6 @@ function solution(numbers) {
   for (let i = 0; i < num.length; i++) {
     numbers = numbers.split(num[i]).join(i);
   }
+
   return Number(numbers);
 }

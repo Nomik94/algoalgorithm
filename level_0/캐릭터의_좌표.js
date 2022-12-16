@@ -17,5 +17,6 @@ function solution(keyinput, board) {
       answer[1] += key[directory][1];
     }
   });
+
   return answer;
 }
