@@ -6,7 +6,6 @@ function solution(keyinput, board) {
     left: [-1, 0],
     right: [1, 0],
   };
-
   const wall = [board[0] / 2, board[1] / 2];
   keyinput.forEach((directory) => {
     if (
@@ -17,6 +16,5 @@ function solution(keyinput, board) {
       answer[1] += key[directory][1];
     }
   });
-
   return answer;
 }
