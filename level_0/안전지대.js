@@ -14,7 +14,7 @@ function solution(board) {
         if (i !== board.length - 1 && board[i + 1][j] !== 1) {
           board[i + 1][j] = 2;
         }
-        // 맨 왼쪽이 아닌 경우
+        // 맨 왼쪽이 아닌 경dn
         if (j !== 0 && board[i][j - 1] !== 1) {
           board[i][j - 1] = 2;
         }
